@@ -1,0 +1,267 @@
+
+
+.profile-block{
+	background:#f4f4f4;
+	padding: 20px;
+	height: 85vh;
+	display: flex;
+	width: 100%;
+	
+	
+
+}
+.profile-container{
+	background:linear-gradient(to left,rgba(110,110,110),rgba(0,0,0)),url('cc.png');
+	color:white;
+	padding: 20px;
+	width: 50%;
+	height: 90%;
+	box-shadow: 10px 0px 10px rgba(254,254,254,1);
+	border: transparent;
+	border: 4px solid #aaa;
+		margin-top: 50px;
+		overflow: hidden;
+		text-align: center;
+		
+
+		
+}
+.profile-button{
+	margin-top: 50px;
+	padding: 25px;
+	width: 100%;
+
+
+
+}
+.profile-buttons{
+	background:#f2f2f2;
+	border: 0.06px solid #ddd;
+
+	padding: 20px;
+	width: 100%;
+	display: flex;
+
+	flex-direction: row;
+
+
+
+}
+.signup-fieldd{
+	height: 20vh;
+	width: 100vw;
+}
+textarea{
+	height: 50%;
+	width: 70%;
+	box-shadow: 0px 4px 12px rgba(0,0,0,0.6);
+	opacity: 0.7;
+	padding: 5px;
+	outline: none;
+	margin-bottom: 30px;
+
+}
+.profile-buttons a{
+	margin: 20px;
+	padding: 10px;
+	background: linear-gradient(90deg,#1256ac,#00b5ad);
+	border-radius: 30px;
+	width: 150px;
+	color: #eee;
+	box-shadow: 4px 1px 22px rgba(0,0,245,0.6);
+	border: 5px solid #eee;
+	text-align: center;
+
+}
+.profile-buttons a:hover{
+	background: linear-gradient(90deg,#00b5ad,#1256ac);
+	
+
+}
+.delete-profile{
+	width: 150px;
+		background: linear-gradient(90deg,#fe4c15,#f09c82);
+	border-radius: 20px;
+	margin: 20px;
+	padding: 10px;
+	color: #fff;
+	border: transparent;
+	box-shadow: 1px 1px 22px rgba(245,0,0,0.6);
+	border: 3px solid white;
+}
+.delete-profile:hover{
+	background: linear-gradient(90deg,#fe4c,#fe4c15);
+
+}
+.profile-button h4,h5{
+	color: #111;
+}
+
+
+@media (max-width:550px){
+	.profile-block{
+		margin-top: 24px;
+		height: auto;
+		
+		padding: 8px;
+		flex-direction: column;
+	}
+	.profile-buttons{
+		flex-direction: column;
+		background-color: #eee;
+	}
+.profile-container{
+	height: 260px;
+	width: 100%;
+}
+}
+
+.modal{
+	height: 100vh;
+	background-color: #aaa;
+	z-index: 1;
+	opacity: 0.4;
+}
+
+/*profile follow button*/
+.follow-button{
+	width: 150px;
+	background: linear-gradient(90deg,#ff4455,cyan);
+	border-radius: 10px;
+	margin: 20px;
+	padding: 10px;
+	color: #fff;
+	border: transparent;
+	box-shadow: 1px 1px 22px rgba(0,234,234,0.6);
+	border: 3px solid white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bolder;
+	border-bottom-width: 10px;
+}
+.unfollow-button{
+	width: 150px;
+	background: linear-gradient(90deg,#ff3333,purple);
+	border-radius: 10px;
+	margin: 20px;
+	padding: 10px;
+	color: #fff;
+	border: transparent;
+	box-shadow: 1px 1px 22px #ff6666;
+	border: 3px solid white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	border-bottom-width: 10px;
+}
+
+.follow-user{
+	width: 100px;
+	background: linear-gradient(90deg,#456565,purple);
+	border-radius: 4px;
+	margin: 20px;
+	padding: 10px;
+	color: #fff;
+	border: transparent;
+	box-shadow: 1px 1px 22px #666;
+	border: 3px solid white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	
+}
+.bbbbb{
+	background-color: #fff;
+	border:1px solid transparent;
+	text-align: center;
+	border-radius: 50px;
+	padding: 0.25rem;
+	color: #999;
+	font-weight: lighter;
+	font-size: 0.95rem;
+	width: 16%;
+	margin: auto;
+	box-shadow: 1px 1px 22px rgba(0,0,0,0.5);
+
+}
+
+
+
+/*profile-tab*/
+
+.follow{
+	display: flex;
+	width: 100vw;
+	
+}
+.follow-col1,.follow-col2{
+	flex: 1;
+	text-align: center;
+	padding: 0.5rem;
+
+}
+.follow-col3{
+	flex: 2;
+	text-align: center;
+	padding: 0.5rem;
+}
+.follow-col1 h3{
+	text-align: center;
+	font-weight: bolder;
+
+}
+
+
+.follow-link{
+	vertical-align: middle;
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+}
+.follow-link img{
+	height: 50px;
+	margin: 20px;
+	width: 50px;
+	border: 1px solid gray;
+	border-radius: 50%;
+	
+}
+.follow-link h6{
+	display: inline-block;
+	font-size: 23px;
+	color: gray;
+
+}
+.follow-array{
+	border: 1px solid transparent;
+	text-align: center;
+	margin: 0.75rem;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.follow-col3 .follow-array{
+	border: 1px solid transparent;
+	text-align: center;
+	margin: 0.75rem;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 24px;
+}
+.follow-grid{
+	margin-left: 20px;
+	
+
+}
+.follow-grid h6{
+	margin-left: 20px;
+	}
+@media (max-width:550px){
+	.follow{
+		flex-direction: column;
+	}
+	.follow-col3{
+		order: 1;
+
+	}
+}

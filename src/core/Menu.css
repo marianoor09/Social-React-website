@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@200&display=swap');
+.html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #f4f4f4;
+}
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	display: flex;
+	width: 100%;
+	height: 8vh;
+	background:linear-gradient(to bottom,rgba(0,0,0),rgba(250,244,244));
+	font-family: 'Spectral SC', serif;
+	
+	
+	box-shadow: 3px 2px 15px rgba(0,0,0,0.6);
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 1rem;
+
+
+}
+.navbar-link{
+	text-decoration: none;
+	color:#fff;
+	font-size: 18px;
+	font-weight: lighter;
+	text-shadow: 2px 4px 4px gray;
+	vertical-align: middle;
+	margin: 25px;
+	justify-content: flex-end;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+
+
+
+
+}
+.navbar-link i{
+	margin-right: 7px;
+	color: gold;
+
+}
+
+.navbar-linka{
+	position: absolute;
+	left: 20px;
+	color:#fff;
+	font-size: 18px;
+	font-weight: lighter;
+
+
+}
+.navbar-span{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	vertical-align: middle;
+	justify-content: center;
+	margin-bottom: 30px;
+	margin-right: 10px;
+	cursor: pointer;
+	align-content: center;
+
+}
+.navbar-span span{
+	height: 2px;
+	vertical-align: middle;
+	padding: 3px;
+	color: white;
+
+}
+@media (min-width:550px){
+
+.navbar-span{
+	display: none;
+}
+
+
+}
+.mob-navbarrr{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	flex-direction: column;
+}
+
+@media (max-width:550px){
+	.navbar{
+		height: 10vh;
+
+		
+		text-align: center;
+		justify-content:space-around;
+		padding: 0 2rem;
+		
+		
+	}
+	.navbar-span{
+	display: none;
+}
+	
+	.navbar-linka{
+	margin: 0%;
+	color:#fff;
+	font-size: 8px;
+	font-weight: lighter;
+	position: relative;
+
+	
+
+}
+	.navbar-link{
+	margin-right: 0%;
+	color:#fff;
+	font-size: 8px;
+	font-weight: lighter;
+
+
+
+}
+
+}
+
+
+/*home css*/
+.contt{
+	background-color: #f4f4f4;
+	
+	width: 70%;
+	border-left: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+	margin: auto;
+}
+.cont{
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	
+
+	
+
+}
+
+@media (max-width:550px){
+	.contt{
+	width: 90%;
+
+}
+.card{
+	margin-top: 50px;
+	display: block;
+	width: 100%;
+	
+}
+}
